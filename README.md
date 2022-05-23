@@ -31,20 +31,21 @@ Github Markdown can render:
       D-->F;
   ```
 - [Map Data via GeoJSON and TopoJSON](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#using-geojson)
+<!--   
   ```geojson
   {
     "type": "Polygon",
     "coordinates": [
-      [
-        [-90, 30],
-        [-90, 35],
-        [-90, 35],
-        [-85, 35],
-        [-85, 30]
-      ]
+        [
+            [-90,30],
+            [-90,35],
+            [-90,35],
+            [-85,35],
+            [-85,30]
+        ]
     ]
   }
-  ```
+  ``` -->
   ```topojson
   {
     "type": "Topology",
